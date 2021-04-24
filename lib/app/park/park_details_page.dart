@@ -14,12 +14,12 @@ class ParkDetailsPage extends StatefulWidget {
 }
 
 class _ParkDetailsPageState extends State<ParkDetailsPage> {
-  bool expandedContainer;
+  bool _expandedContainer;
 
   @override
   void initState() {
     super.initState();
-    expandedContainer = false;
+    _expandedContainer = false;
   }
 
   @override
@@ -34,29 +34,21 @@ class _ParkDetailsPageState extends State<ParkDetailsPage> {
             child: AnimatedContainer(
               curve: Curves.easeInOut,
               duration: Duration(milliseconds: 400),
-              height: expandedContainer ? pageHeight : pageHeight / 1.5,
+              height: _expandedContainer ? pageHeight : pageHeight / 1.5,
               padding: EdgeInsets.fromLTRB(24, 16, 24, 24),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
-                  topLeft: Radius.circular(expandedContainer ? 0 : 30),
-                  topRight: Radius.circular(expandedContainer ? 0 : 30),
+                  topLeft: Radius.circular(_expandedContainer ? 0 : 30),
+                  topRight: Radius.circular(_expandedContainer ? 0 : 30),
                 ),
               ),
               child: Column(
                 children: [
-                  Container(
-                    width: 80,
-                    height: 4,
-                    decoration: BoxDecoration(
-                      color: AppColors.magentaLight,
-                      borderRadius: BorderRadius.circular(5),
-                    ),
-                  ),
                   SizedBox(height: 24),
                   Expanded(
                     child: ListView(
-                      physics: expandedContainer
+                      physics: _expandedContainer
                           ? BouncingScrollPhysics()
                           : NeverScrollableScrollPhysics(),
                       children: [
@@ -111,7 +103,7 @@ class _ParkDetailsPageState extends State<ParkDetailsPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
-                          expandedContainer
+                          _expandedContainer
                               ? Feather.chevron_down
                               : Feather.chevron_up,
                           size: 26,
@@ -119,14 +111,14 @@ class _ParkDetailsPageState extends State<ParkDetailsPage> {
                         ),
                         SizedBox(width: 5),
                         Text(
-                          expandedContainer ? "Mostrar menos" : "Mostrar mais",
+                          _expandedContainer ? "Mostrar menos" : "Mostrar mais",
                           style: AppTextStyles.textButton
                               .copyWith(color: AppColors.blue),
                         )
                       ],
                     ),
                     onPressed: () => setState(() {
-                      expandedContainer = !expandedContainer;
+                      _expandedContainer = !_expandedContainer;
                     }),
                   ),
                   SizedBox(height: 24),

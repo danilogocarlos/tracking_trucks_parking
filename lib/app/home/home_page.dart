@@ -15,34 +15,33 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final GlobalKey<AnimatedListState> listKey = GlobalKey<AnimatedListState>();
-  final controller = HomePageController();
-  int currentIdex;
-  int currentOption;
+  final _controller = HomePageController();
+  int _currentIdex;
+  int _currentOption;
 
   @override
   void initState() {
     super.initState();
-    currentIdex = 0;
-    currentOption = 0;
-    controller.fetchUser();
-    controller.fetchTrucks(currentOption);
-    controller.fetchParks(currentOption);
-    controller.stateNotifier.addListener(() {
+    _currentIdex = 0;
+    _currentOption = 0;
+    _controller.fetchUser();
+    _controller.fetchTrucks(_currentOption);
+    _controller.fetchParks(_currentOption);
+    _controller.stateNotifier.addListener(() {
       setState(() {});
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    if (controller.state == HomeState.success) {
+    if (_controller.state == HomeState.success) {
       return Scaffold(
         backgroundColor: AppColors.background,
         body: Stack(
           children: [
             Align(
               alignment: Alignment.topLeft,
-              child: AppBarWidget(controller.user),
+              child: AppBarWidget(_controller.user),
             ),
             Positioned(
               top: 120,
@@ -57,23 +56,23 @@ class _HomePageState extends State<HomePage> {
                         vertical: 10,
                       ),
                       child: FiltersListWidget(
-                        selectedOption: currentOption,
+                        selectedOption: _currentOption,
                         onTap: (index) => setState(() {
-                          if (index != currentOption) {
-                            currentOption = index;
-                            if (currentIdex == 0) {
-                              controller.fetchTrucks(currentOption);
+                          if (index != _currentOption) {
+                            _currentOption = index;
+                            if (_currentIdex == 0) {
+                              _controller.fetchTrucks(_currentOption);
                             } else {
-                              controller.fetchParks(currentOption);
+                              _controller.fetchParks(_currentOption);
                             }
                           }
                         }),
                       )),
                   SizedBox(height: 20),
                   Expanded(
-                    child: currentIdex == 0
-                        ? TrucksListWidget(trucks: controller.trucks)
-                        : ParkListWidget(parks: controller.parks),
+                    child: _currentIdex == 0
+                        ? TrucksListWidget(trucks: _controller.trucks)
+                        : ParkListWidget(parks: _controller.parks),
                   ),
                 ],
               ),
@@ -98,14 +97,14 @@ class _HomePageState extends State<HomePage> {
             Align(
               alignment: Alignment.bottomCenter,
               child: BottomNavBarWidget(
-                selectedIndex: currentIdex,
+                selectedIndex: _currentIdex,
                 onTap: (index) => setState(() {
-                  currentOption = 0;
-                  currentIdex = index;
+                  _currentOption = 0;
+                  _currentIdex = index;
                   if (index == 0) {
-                    controller.fetchTrucks(currentOption);
+                    _controller.fetchTrucks(_currentOption);
                   } else {
-                    controller.fetchParks(currentOption);
+                    _controller.fetchParks(_currentOption);
                   }
                 }),
               ),
