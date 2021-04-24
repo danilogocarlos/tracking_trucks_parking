@@ -1,6 +1,6 @@
 # :house: Controle de estacionamento de caminhões
 
-Este é um projeto de estudo para aplicar o conhecimento em criação de layouts com Flutter.
+Este é um projeto de estudo para aplicar o conhecimento em criação de layouts com Flutter. Neste projeto foi utilizada uma arquitetura simplificada. Caso deseje investigar um projeto com uma arquitetura um pouco mais complexa utilizando Clean Arch e testes de unidade indico [acessar esse repositório](https://github.com/danilogocarlos/nasa_picture_of_day_project) de um projeto de estudos criado por mim aqui no meu github.
 
 ## :hammer_and_wrench: Tecnologias e packages
 
@@ -33,6 +33,12 @@ Requisitos: Flutter mobile, desktop ou web.
 
 Foi proposta uma interface onde o João possa ter acesso a uma lista de caminhões e uma lista de vagas.
 
+![Demostração](https://raw.githubusercontent.com/danilogocarlos/tracking_trucks_parking/main/assets/gifs/00.gif)
+
 Na listagem de caminhões, João poderá filtrar os caminhões em todos, disponíveis e ocupados. Assim ficará mais fácil ele identificar quais caminhões estão à disposição e quais não estão. Além disso, João pode selecionar um caminhão para ver os detalhes sobre aquele caminhão e os horários de entrada e saída das vagas que teve acesso durante o dia.
 
+![Demostração](https://raw.githubusercontent.com/danilogocarlos/tracking_trucks_parking/main/assets/gifs/01.gif)
+
 De forma análoga, João poderá acessar as vagas tendo o controle de quais estão disponíveis e quais estão indisponíveis. Além de ter acesso aos detalhes e histórico de acesso àquela vaga.
+
+![Demostração](https://raw.githubusercontent.com/danilogocarlos/tracking_trucks_parking/main/assets/gifs/02.gif)
