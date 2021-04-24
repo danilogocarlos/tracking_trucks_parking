@@ -1,0 +1,198 @@
+[
+    {
+        "title": "A-01",
+        "available": false,
+        "last_check": "12:00",
+        "checkins": [
+            {
+                "truck": {
+                    "model": "Scania R 500",
+                    "plate": "SCA1E20",
+                    "photo": "https://www.scania.com/content/scanianoe/br/pt/home/experience-scania/news-and-events/News/archive/2018/11/default-press-release21/_jcr_content/par/image.img.jpg/1542909051688.jpg",
+                    "available": true,
+                    "driver": {
+                        "name": "Henry Colares",
+                        "photo": "https://randomuser.me/api/portraits/men/40.jpg"
+                    }
+                },
+                "time_in": "12:00",
+                "time_out": null
+            },
+            {
+                "truck": {
+                    "model": "Mercedes TR-150",
+                    "plate": "BRA2E19",
+                    "photo": "https://i.pinimg.com/originals/2b/39/15/2b39153f1d64905bdc3d1cc5d4adce2f.jpg",
+                    "available": true,
+                    "driver": {
+                        "name": "Antônio Silvério",
+                        "photo": "https://randomuser.me/api/portraits/men/82.jpg"
+                    }
+                },
+                "time_in": "08:02",
+                "time_out": "10:05"
+            },
+            {
+                "truck": {
+                    "model": "Iveco Strails",
+                    "plate": "TRU2E21",
+                    "photo": "https://lh3.googleusercontent.com/proxy/6nmYVsISqb3_-R1DRu9engL3g6l3uL-Cf09IDfZ2mVHrLY99g-_sOtiQW_bMLm7Vo7CN-0WV60Pq88MXAS0zh_QuOPkbnkW5Ob5LcTHAu0zS",
+                    "available": false,
+                    "driver": {
+                        "name": "Francisco Adauto",
+                        "photo": "https://randomuser.me/api/portraits/men/59.jpg"
+                    }
+                },
+                "time_in": "05:30",
+                "time_out": "07:02"
+            }
+        ]
+    },
+    {
+        "title": "A-02",
+        "available": true,
+        "last_check": "07:45",
+        "checkins": [
+            {
+                "truck": {
+                    "model": "Mercedes TR-150",
+                    "plate": "BRA2E19",
+                    "photo": "https://i.pinimg.com/originals/2b/39/15/2b39153f1d64905bdc3d1cc5d4adce2f.jpg",
+                    "available": true,
+                    "driver": {
+                        "name": "Antônio Silvério",
+                        "photo": "https://randomuser.me/api/portraits/men/82.jpg"
+                    }
+                },
+                "time_in": "05:30",
+                "time_out": "07:45"
+            }
+        ]
+    },
+    {
+        "title": "A-03",
+        "available": false,
+        "last_check": "15:48",
+        "checkins": [
+            {
+                "truck": {
+                    "model": "Mercedes TR-150",
+                    "plate": "BRA2E19",
+                    "photo": "https://i.pinimg.com/originals/2b/39/15/2b39153f1d64905bdc3d1cc5d4adce2f.jpg",
+                    "available": true,
+                    "driver": {
+                        "name": "Antônio Silvério",
+                        "photo": "https://randomuser.me/api/portraits/men/82.jpg"
+                    }
+                },
+                "time_in": "15:48",
+                "time_out": null
+            },
+            {
+                "truck": {
+                    "model": "Mercedes TR-150",
+                    "plate": "BRA2E19",
+                    "photo": "https://i.pinimg.com/originals/2b/39/15/2b39153f1d64905bdc3d1cc5d4adce2f.jpg",
+                    "available": true,
+                    "driver": {
+                        "name": "Antônio Silvério",
+                        "photo": "https://randomuser.me/api/portraits/men/82.jpg"
+                    }
+                },
+                "time_in": "11:00",
+                "time_out": "11:45"
+            },
+            {
+                "truck": {
+                    "model": "Scania R 500",
+                    "plate": "SCA1E20",
+                    "photo": "https://www.scania.com/content/scanianoe/br/pt/home/experience-scania/news-and-events/News/archive/2018/11/default-press-release21/_jcr_content/par/image.img.jpg/1542909051688.jpg",
+                    "available": true,
+                    "driver": {
+                        "name": "Henry Colares",
+                        "photo": "https://randomuser.me/api/portraits/men/40.jpg"
+                    }
+                },
+                "time_in": "09:30",
+                "time_out": "10:12"
+            },
+            {
+                "truck": {
+                    "model": "Scania R 500",
+                    "plate": "SCA1E20",
+                    "photo": "https://www.scania.com/content/scanianoe/br/pt/home/experience-scania/news-and-events/News/archive/2018/11/default-press-release21/_jcr_content/par/image.img.jpg/1542909051688.jpg",
+                    "available": true,
+                    "driver": {
+                        "name": "Henry Colares",
+                        "photo": "https://randomuser.me/api/portraits/men/40.jpg"
+                    }
+                },
+                "time_in": "05:30",
+                "time_out": "07:17"
+            }
+        ]
+    },
+    {
+        "title": "A-04",
+        "available": true,
+        "last_check": "11:55",
+        "checkins": [
+            {
+                "truck": {
+                    "model": "Iveco Strails",
+                    "plate": "TRU2E21",
+                    "photo": "https://lh3.googleusercontent.com/proxy/6nmYVsISqb3_-R1DRu9engL3g6l3uL-Cf09IDfZ2mVHrLY99g-_sOtiQW_bMLm7Vo7CN-0WV60Pq88MXAS0zh_QuOPkbnkW5Ob5LcTHAu0zS",
+                    "available": false,
+                    "driver": {
+                        "name": "Francisco Adauto",
+                        "photo": "https://randomuser.me/api/portraits/men/59.jpg"
+                    }
+                },
+                "time_in": "08:52",
+                "time_out": "11:55"
+            }
+        ]
+    },
+    {
+        "title": "B-01",
+        "available": true,
+        "last_check": "12:28",
+        "checkins": [
+            {
+                "truck": {
+                    "model": "Iveco Strails",
+                    "plate": "TRU2E21",
+                    "photo": "https://lh3.googleusercontent.com/proxy/6nmYVsISqb3_-R1DRu9engL3g6l3uL-Cf09IDfZ2mVHrLY99g-_sOtiQW_bMLm7Vo7CN-0WV60Pq88MXAS0zh_QuOPkbnkW5Ob5LcTHAu0zS",
+                    "available": false,
+                    "driver": {
+                        "name": "Francisco Adauto",
+                        "photo": "https://randomuser.me/api/portraits/men/59.jpg"
+                    }
+                },
+                "time_in": "12:00",
+                "time_out": "12:28"
+            }
+        ]
+    },
+    {
+        "title": "B-02",
+        "available": true,
+        "last_check": "12:28",
+        "checkins": [
+            {
+                "truck": {
+                    "model": "Iveco Strails",
+                    "plate": "TRU2E21",
+                    "photo": "https://lh3.googleusercontent.com/proxy/6nmYVsISqb3_-R1DRu9engL3g6l3uL-Cf09IDfZ2mVHrLY99g-_sOtiQW_bMLm7Vo7CN-0WV60Pq88MXAS0zh_QuOPkbnkW5Ob5LcTHAu0zS",
+                    "available": false,
+                    "driver": {
+                        "name": "Francisco Adauto",
+                        "photo": "https://randomuser.me/api/portraits/men/59.jpg"
+                    }
+                },
+                "time_in": "13:02",
+                "time_out": "13:42"
+            }
+        ]
+    }
+]

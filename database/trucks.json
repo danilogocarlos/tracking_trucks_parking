@@ -1,0 +1,93 @@
+[
+    {
+        "model": "Mercedes TR-150",
+        "plate": "BRA2E19",
+        "photo": "https://i.pinimg.com/originals/2b/39/15/2b39153f1d64905bdc3d1cc5d4adce2f.jpg",
+        "available": true,
+        "driver": {
+            "name": "Antônio Silvério",
+            "photo": "https://randomuser.me/api/portraits/men/82.jpg"
+        },
+        "checkins": [
+            {
+                "park": "A-03",
+                "time_in": "15:48",
+                "time_out": null
+            },
+            {
+                "park": "A-03",
+                "time_in": "11:00",
+                "time_out": "11:45"
+            },
+            {
+                "park": "A-01",
+                "time_in": "08:02",
+                "time_out": "10:05"
+            },
+            {
+                "park": "A-02",
+                "time_in": "05:30",
+                "time_out": "07:45"
+            }
+        ]
+    },
+    {
+        "model": "Iveco Strails",
+        "plate": "TRU2E21",
+        "photo": "https://images.unsplash.com/photo-1586206670130-4c6d8e646c9a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80",
+        "available": false,
+        "driver": {
+            "name": "Francisco Adauto",
+            "photo": "https://randomuser.me/api/portraits/men/59.jpg"
+        },
+        "checkins": [
+            {
+                "park": "B-02",
+                "time_in": "13:02",
+                "time_out": "13:42"
+            },
+            {
+                "park": "B-01",
+                "time_in": "12:00",
+                "time_out": "12:28"
+            },
+            {
+                "park": "A-04",
+                "time_in": "08:52",
+                "time_out": "11:55"
+            },
+            {
+                "park": "A-01",
+                "time_in": "05:30",
+                "time_out": "07:02"
+            }
+        ]
+    },
+    {
+        "model": "Scania R 500",
+        "plate": "SCA1E20",
+        "photo": "https://images.unsplash.com/photo-1583755075864-1f52f30d3d45?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+        "available": true,
+        "driver": {
+            "name": "Henry Colares",
+            "photo": "https://randomuser.me/api/portraits/men/40.jpg"
+        },
+        "checkins": [
+            {
+                "park": "A-01",
+                "time_in": "12:00",
+                "time_out": null
+            },
+            {
+                "park": "A-03",
+                "time_in": "09:30",
+                "time_out": "10:12"
+            },
+            {
+                "park": "A-03",
+                "time_in": "05:30",
+                "time_out": "07:17"
+            }
+        ]
+    }
+]
