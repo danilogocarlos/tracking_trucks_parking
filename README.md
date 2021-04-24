@@ -33,6 +33,12 @@ Requisitos: Flutter mobile, desktop ou web.
 
 Foi proposta uma interface onde o João possa ter acesso a uma lista de caminhões e uma lista de vagas.
 
+![Demostração](https://raw.githubusercontent.com/danilogocarlos/tracking_trucks_parking/main/assets/gifs/00.gif)
+
 Na listagem de caminhões, João poderá filtrar os caminhões em todos, disponíveis e ocupados. Assim ficará mais fácil ele identificar quais caminhões estão à disposição e quais não estão. Além disso, João pode selecionar um caminhão para ver os detalhes sobre aquele caminhão e os horários de entrada e saída das vagas que teve acesso durante o dia.
 
+![Demostração](https://raw.githubusercontent.com/danilogocarlos/tracking_trucks_parking/main/assets/gifs/01.gif)
+
 De forma análoga, João poderá acessar as vagas tendo o controle de quais estão disponíveis e quais estão indisponíveis. Além de ter acesso aos detalhes e histórico de acesso àquela vaga.
+
+![Demostração](https://raw.githubusercontent.com/danilogocarlos/tracking_trucks_parking/main/assets/gifs/02.gif)
