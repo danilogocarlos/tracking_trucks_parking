@@ -2,6 +2,10 @@
 
 Este é um projeto de estudo para aplicar o conhecimento em criação de layouts com Flutter. Neste projeto foi utilizada uma arquitetura simplificada. Caso deseje investigar um projeto com uma arquitetura um pouco mais complexa utilizando Clean Arch e testes de unidade indico [acessar esse repositório](https://github.com/danilogocarlos/nasa_picture_of_day_project) de um projeto de estudos criado por mim aqui no meu github.
 
+## :game_die: Demo
+
+[Clique aqui para ver uma demo online](https://danilogocarlos.github.io/ttp_demo/)
+
 ## :hammer_and_wrench: Tecnologias e packages
 
 - Dart
