@@ -1,7 +1,7 @@
 name: tracking_trucks_parking
 description: A new Flutter project.
 
-publish_to: 'none'
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
@@ -17,9 +17,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-    
+
 flutter:
   assets:
-    - assets/images/
+    - assets/gifs/
     - database/
   uses-material-design: true
